@@ -82,7 +82,8 @@ body {
 
 .first-sec {
     background-color: #FAB529;
-    border-radius: 25%;
+    border-top-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
 }
 
 .sec-1-ti-1 {
@@ -118,6 +119,125 @@ body {
 
 .sec-1-2-date-2 {
     font-family: 'Stem-Medium';
+}
+
+.second-sec {}
+
+.sec-2-ti-1 {
+    font-family: 'Stem-Bold';
+}
+
+.sec-2-card-body {
+    border: solid;
+    border-color: #FAB529;
+    border-radius: 1.25rem;
+}
+
+.sec-2-card-body-date {
+    color: #FAB529;
+    font-family: 'Stem-Bold';
+}
+
+.sec-2-card-body-date-txt {
+    color: #FAB529;
+    font-family: 'Stem-Medium';
+}
+
+.sec-2-card-body-txt {
+    font-family: 'Stem-Regular';
+}
+
+.container-img {
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.second-sec-2-tit-1 {
+    font-family: 'Stem-Bold';
+}
+
+.second-sec-2-txt-1 {
+    font-family: 'Stem-Bold';
+}
+
+.second-sec-2-txt-2 {
+    font-family: 'Stem-Medium';
+}
+
+.second-sec-2-txt-3 {
+    font-family: 'Stem-Regular';
+}
+
+.third-sec {
+    background-color: #FAB529;
+    border-top-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
+}
+
+.sec-3-ti-1 {
+    color: #ffffff;
+    font-family: 'Stem-Bold';
+}
+
+.sec-3-ti-2 {
+    font-family: 'Stem-Medium';
+}
+
+.sec-3-ti-3 {
+    color: #ffffff;
+    font-family: 'Stem-Medium';
+}
+
+.sec-3-txt-1 {
+    font-family: 'Stem-Medium';
+}
+
+.sec-3-txt-2 {
+    font-family: 'Stem-Regular';
+}
+
+.sec-3-el-1 {}
+
+.sec-3-el-2 {
+    background-color: #ffffff;
+    border-radius: 25%;
+}
+
+.sec-3-el-2-1 {
+    font-family: 'Stem-Medium';
+}
+
+.sec-3-el-2-2 {
+    font-family: 'Stem-Medium';
+    background-color: #FAB529;
+}
+
+.sec-3-ti-4 {
+    font-family: 'Stem-Bold';
+}
+
+.sec-3-el-3 {
+    background-color: #ffffff;
+    border-radius: 25%;
+    font-family: 'Stem-Medium';
+}
+
+.sec-3-ti-5 {
+    font-family: 'Stem-Medium';
+}
+
+footer {
+    background-color: #111;
+}
+
+.foo-txt-1 {
+    color: #FAB529;
+    font-family: 'Stem-Regular';
+}
+
+.foo-txt-2 {
+    color: #ffffff;
+    font-family: 'Stem-Regular';
 }
 
 @media (max-width: 830px) {
@@ -163,8 +283,9 @@ body {
     }
 
     .first-sec {
-        border-radius: 1.25rem;
-        padding-bottom: 20px;
+        border-top-right-radius: 1.25rem;
+        border-top-left-radius: 1.25rem;
+        padding-bottom: 3.5rem;
     }
 
     .sec-1-ti-1 {
@@ -204,5 +325,185 @@ body {
     .sec-1-2-date-2 {
         font-size: 1.5rem;
         line-height: 1.8rem;
+    }
+
+    .second-sec {
+        padding-top: 52px;
+    }
+
+    .sec-2-ti-1 {
+        font-size: 2.1875rem;
+        line-height: 2.625rem;
+        margin-bottom: 2rem;
+    }
+
+    .sec-2-card-body {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        padding-right: calc(var(--bs-gutter-x) * .5 + 35px);
+        padding-left: calc(var(--bs-gutter-x) * .5 + 25px);
+    }
+
+    .sec-2-card-body-date {
+        font-size: 4.6875rem;
+        line-height: 4.6875rem;
+        padding-left: 0%;
+    }
+
+    .sec-2-card-body-date-txt {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+
+    .sec-2-card-body-txt {
+        font-size: .9375rem;
+        line-height: 1.4063rem;
+        margin-top: 1.375rem;
+        padding-top: 1.5rem;
+        border-top: #FAB529 solid;
+        padding-left: 0%;
+    }
+
+    .second-sec-2-tit-1 {
+        font-size: 2.1875rem;
+        line-height: 2.625rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .second-sec-2-txt-1 {
+        font-size: 2.1875rem;
+        line-height: 2.625rem;
+        margin-top: 2.8125rem;
+        margin-bottom: 4rem;
+    }
+
+    .second-sec-2-txt-2 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+
+    .second-sec-2-txt-3 {
+        font-size: .9375rem;
+        line-height: 1.4063rem;
+        margin-top: .75rem;
+    }
+
+    .container-img-2 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .third-sec {
+        margin-top: 8.0625rem;
+        border-top-right-radius: 1.25rem;
+        border-top-left-radius: 1.25rem;
+        padding-top: 3.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .sec-3-ti-1 {
+        font-size: 2.1875rem;
+        line-height: 2.625rem;
+    }
+
+    .sec-3-ti-2 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        margin-top: 2rem;
+    }
+
+    .sec-3-ti-3 {
+        color: #111;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        margin-top: 3.625rem;
+        margin-bottom: 1.5625rem;
+    }
+
+    .sec-3-txt-1 {
+        font-size: 1.125rem;
+        line-height: 1.4625rem;
+    }
+
+    .sec-3-txt-2 {
+        font-size: .75rem;
+        line-height: 1.125rem;
+        margin-top: .625rem;
+    }
+
+    .sec-3-el-1 {
+        margin-bottom: 2.25rem;
+    }
+
+    .sec-3-el-2 {
+        border-radius: 1.25rem;
+        padding: 1.6875rem;
+        margin-bottom: 2rem;
+    }
+
+    .sec-3-el-2-1 {
+        font-size: 1.125rem;
+        line-height: 1.4625rem;
+        margin-bottom: 1rem;
+    }
+
+    .sec-3-el-2-2 {
+        font-size: 1.125rem;
+        line-height: 1.4625rem;
+        padding: .625rem 3.6875rem;
+        border-radius: 1.25rem;
+    }
+
+    .sec-3-ti-4 {
+        margin-top: 3rem;
+        font-size: 2.1875rem;
+        line-height: 2.625rem;
+        margin-bottom: 3rem;
+    }
+
+    .sec-3-el-3 {
+        padding: 1.9375rem 1.6875rem;
+        border-radius: 1.25rem;
+        background-color: #ffffff;
+        font-size: 1.125rem;
+        line-height: 1.4625rem;
+    }
+
+    .sec-3-ti-5 {
+        margin-top: 3rem;
+        font-size: 1.375rem;
+        line-height: 1.925rem;
+    }
+
+    footer {
+        padding-top: 2.6875rem;
+        padding-bottom: 3.4375rem;
+    }
+
+    .foo-txt-1 {
+        font-size: 1rem;
+    }
+
+    .foo-txt-2 {
+        font-size: 1.3125rem;
+        line-height: 1.75rem;
+    }
+
+    .foo-1 {
+        margin-top: 3.625rem;
+    }
+
+    .foo-2 {
+        margin-top: 2.0625rem;
+    }
+}
+@media (max-width: 1000px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding-left: 3.6875rem;
+        padding-right: 3.6875rem;
     }
 }
