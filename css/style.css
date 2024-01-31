@@ -200,7 +200,7 @@ body {
 
 .sec-3-el-2 {
     background-color: #ffffff;
-    border-radius: 25%;
+    border-radius: 1.25rem;
 }
 
 .sec-3-el-2-1 {
@@ -218,7 +218,7 @@ body {
 
 .sec-3-el-3 {
     background-color: #ffffff;
-    border-radius: 25%;
+    border-radius: 1.25rem;
     font-family: 'Stem-Medium';
 }
 
@@ -499,11 +499,222 @@ footer {
         margin-top: 2.0625rem;
     }
 }
-@media (max-width: 1000px) {
+@media (min-width: 831px) and (max-width: 1000px) {
     .container {
         max-width: 100%;
         width: 100%;
         padding-left: 3.6875rem;
         padding-right: 3.6875rem;
+    }
+    .header-img {
+        padding-top: 4.375rem;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-size: 95vw;
+        background-position: bottom;
+        background-position-x: right;
+        background-color: black;
+        margin-bottom: -1.325rem;
+        padding-bottom: 26rem;
+        height: 100%;
+    }
+    .nav-logo {
+        margin-bottom: 9.0625rem;
+    }
+    .subtitle-1 {
+        font-size: 2.1875rem;
+        margin-bottom: 1.5625rem;
+        line-height: 2.625rem;
+    }
+    .title {
+        font-size: 4.375rem;
+        line-height:  4.375rem;
+        margin-bottom: 8.875rem;
+    }
+    .date {
+        font-size: 1.5625rem;
+        line-height: 1.5625rem;
+        padding: 1.4375rem 1.5rem;
+
+    }
+    .first-sec {
+        padding-bottom: 7.3125rem;
+    }
+    .sec-1-ti-1 {
+        font-size: 4.6875rem;
+        line-height: 4.6875rem;
+        padding-top: 7.125rem;
+        margin-bottom: 3.125rem;
+    }
+    .sec-1-ti-2 {
+        font-size: 2.1875rem;
+        line-height: 2.625rem;
+    }
+    .sec-1-ti-3 {
+        font-size: 1.5625rem;
+        line-height: 2.1875rem;
+    }
+    .sec-1-2 {
+        margin-top: 3rem;
+        padding-top: 3.625rem;
+        padding-bottom: 4.375rem;
+        border-radius: 1.25rem;
+        border-width: .375rem;
+    }
+    .sec-1-2-ti-1 {
+        font-size: 2rem;
+        line-height: 2.625rem;
+        margin-bottom: 2.25rem;
+    }
+    .sec-1-2-date-1 {
+        font-size: 9.375rem;
+        line-height: 9.375rem;
+    }
+    .sec-1-2-date-2 {
+        font-size: 1.5625rem;
+        line-height: 1.875rem;
+    }
+    .second-sec {
+        padding-top: 7.4375rem;
+    }
+    .sec-2-ti-1 {
+        font-size: 4.6875rem;
+        line-height: 4.6875rem;
+        margin-bottom: 7.4375rem;
+    }
+    .sec-2-card-body {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-bottom: 3.1875rem;
+        padding-right: calc(var(--bs-gutter-x) * .5 + 35px);
+        padding-left: calc(var(--bs-gutter-x) * .5 + 50px);
+    }
+    .sec-2-card-body-date {
+        font-size: 12.5rem;
+        line-height: 15rem;
+        padding-left: 0%;
+    }
+    .sec-2-card-body-date-txt {
+        font-size: 2.1875rem;
+        line-height: 2.625rem;
+    }
+    .sec-2-card-body-txt {
+        font-size: 1.5625rem;
+        line-height: 2.1875rem;
+        margin-top: 3.1875rem;
+        padding-top: 3.1875rem;
+        border-top: #FAB529 solid .375rem;
+        padding-left: 0%;
+    }
+    .container-img{
+        margin-top: 2.9375rem;
+    }
+    .second-sec-2-tit-1 {
+        font-size: 4.6875rem;
+        line-height: 4.6875rem;
+        margin-top: 5.625rem;
+        margin-bottom: .625rem;
+    }
+    .second-sec-2-txt-1 {
+        font-size: 4.6875rem;
+        line-height: 4.6875rem;
+        margin-top: 3.3125rem;
+        margin-bottom: 8.875rem;
+    }
+    .second-sec-2-txt-2 {
+        font-size: 2.1875rem;
+        line-height: 2.625rem;
+    }
+    .second-sec-2-txt-3 {
+        font-size: 1.5625rem;
+        line-height: 2.1875rem;
+    }
+    .container-img-2 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .third-sec {
+        margin-top: 4.5625rem;
+        border-top-right-radius: 1.25rem;
+        border-top-left-radius: 1.25rem;
+        padding-top: 6.875rem;
+        padding-bottom: 7.375rem;
+    }
+    .sec-3-ti-1 {
+        font-size: 4.6875rem;
+        line-height: 4.6875rem;
+    }
+    .sec-3-ti-2 {
+        font-size: 3.125rem;
+        line-height: 3.125rem;
+        margin-top: 5.125rem;
+    }
+    .sec-3-ti-3 {
+        font-size: 2.725rem;
+        line-height: 3.125rem;;
+        margin-top: 7.75rem;
+        margin-bottom: 5.875rem;
+    }
+    .sec-3-txt-1 {
+        font-size: 2.1875rem;
+        line-height: 2.625rem;
+    }
+    .sec-3-txt-2 {
+        font-size: 1.5625rem;
+        line-height: 2.1875rem;
+        margin-top: .9375rem;
+    }
+    .sec-3-el-1 {
+        margin-bottom: 5.125rem;
+    }
+    .sec-3-el-2 {
+        padding: 2.1875rem 3rem;
+        margin-bottom: 5.4375rem;
+    }
+    .sec-3-el-2-1 {
+        font-size: 2.1875rem;
+        line-height: 2.625rem;
+    }
+    .sec-3-el-2-2 {
+        font-size: 1.5625rem;
+        line-height: 1.875rem;
+        padding: 1.625rem 4.9375rem;
+        border-radius: 4.125rem;
+    }
+    .sec-3-ti-4 {
+        margin-top: 6rem;
+        font-size: 4.6875rem;
+        line-height: 4.6875rem;
+        margin-bottom: 6.375rem;
+    }
+    .sec-3-el-3 {
+        padding: 3.9375rem 2.9375rem;
+        border-radius: 4.125rem;
+        background-color: #ffffff;
+        font-size: 2.1875rem;
+        line-height: 2.625rem;
+    }
+    .sec-3-ti-5 {
+        margin-top: 13.375rem;
+        font-size: 3.125rem;
+        line-height: 3.75rem;
+    }
+    footer {
+        padding-top: 3.625rem;
+        padding-bottom: 3.3125rem;
+    }
+    .foo-txt-1 {
+        font-size: 1rem;
+    }
+
+    .foo-txt-2 {
+        font-size: 1.3125rem;
+        line-height: 1.75rem;
+    }
+    .foo-1 {
+        margin-top: 2.0625rem;
+    }
+    .foo-2 {
+        margin-top: 2.0625rem;
     }
 }
