@@ -370,6 +370,9 @@ footer {
 }
 
 @media (max-width: 830px) {
+    .nav-logo-img{
+        height: 5vw;
+    }
     .container {
         max-width: 100%;
         width: 100%;
